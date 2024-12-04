@@ -1,0 +1,6 @@
+﻿services:
+  agenda.api:
+    image: agenda.api
+    build:
+      context: .
+      dockerfile: Agenda.API/Dockerfile
